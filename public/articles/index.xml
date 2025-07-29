@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Toinen Kerros</title>
+    <link>http://localhost:62069/articles/</link>
+    <description>Recent Posts in Articles on Toinen Kerros</description>
+    <generator>Hugo 0.148.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jul 2025 13:21:09 +0300</lastBuildDate>
+    <atom:link href="http://localhost:62069/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post</title>
+      <link>http://localhost:62069/articles/my-new-article-copy-2/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62069/articles/my-new-article-copy-2/</guid>
+      <description></description>
+      
+    </item>
+  </channel>
+</rss>

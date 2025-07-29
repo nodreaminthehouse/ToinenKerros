@@ -1,0 +1,58 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Toinen Kerros'
+
+theme = "hugo-brewm" 
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/About/"
+  weight = 2
+
+  [[menu.main]]
+  name = "Calendar"
+  url = "/Calendar/"
+  weight = 3
+
+  [[menu.main]]
+  name = "Open Call"
+  url = "/OpenCall/"
+  weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+mainSections = ["posts"]
+
+[params.logo]
+  logoMark = "/images/logo.svg"
+  logoType = "/images/logo.svg"
+
+   ## Post display settings
+    [params.posts]
+        ## Enable text justification
+        justifying = false
+        ## Disable paragraph indentation
+        noIndent = false
+        ## Use sans-serif fonts as default
+        sfdefault = false
+        ## Show colophon section (including QR code)
+        colophon = true
+        ## disable redaction history
+        disableHistory = false
+        ## SHow related content
+        related = true
+        ## Show share buttons
+        share = true
+        ## enable section numbering
+        secnum = false
+
+

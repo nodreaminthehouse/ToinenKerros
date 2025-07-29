@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Òls on Toinen Kerros</title>
+    <link>http://localhost:62069/%C3%B2ls/</link>
+    <description>Recent Posts in Òls on Toinen Kerros</description>
+    <generator>Hugo 0.148.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jul 2025 12:55:07 +0300</lastBuildDate>
+    <atom:link href="http://localhost:62069/%C3%B2ls/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
