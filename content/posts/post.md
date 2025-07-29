@@ -1,7 +1,7 @@
 ---
 title: "Concerto di libero"
 date: 2025-02-22
-description: "Price 15 eur"
+description: "Opening hour 19 - Price 15 eur"
 draft: false
 author: "Toinen Kerros + Libero mureddu"
 type: "post"
