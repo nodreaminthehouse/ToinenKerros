@@ -12,7 +12,7 @@
 [accessTime]
     other = "This page is accessed on"
 [allPosts]
-    other = "All posts"
+    other = "All Events"
 [appearance]
     other = "Appearance"
 [articles]
@@ -180,12 +180,12 @@
 [pagination]
     other = "Pagination"
 [posts]
-    one = "Post"
-    other = "Posts"
+    one = "Events"
+    other = "Events"
 [postsBy]
-    other = "Post by"
+    other = "Events by"
 [postsOn]
-    other = "Posts on"
+    other = "Events on"
 [poweredBy]
     other = "Powered by"
 [prev]
@@ -199,7 +199,7 @@
 [readingTime]
     other = "Min read"
 [recent]
-    other = "Recent Posts"
+    other = "Recent Events"
 [redactionHistory]
     other = "Redaction History"
 [redactionNotes]
