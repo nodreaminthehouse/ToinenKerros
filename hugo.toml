@@ -4,11 +4,13 @@ title = 'Toinen Kerros'
 
 theme = "hugo-brewm" 
 
+
 [[menu.main]]
   name = "Home"
   url = "/"
   weight = 1
 
+## Maybe we should do a nested menu for the main about too - so to involve more interaction within the history and process of the space
 [[menu.main]]
   name = "About"
   url = "/About/"
@@ -23,6 +25,28 @@ theme = "hugo-brewm"
   name = "Open Call"
   url = "/OpenCall/"
   weight = 3
+
+## Nested Menu for Activities and other things - use it as a template 
+
+[[menu.main]]
+    identifier = "Activities"
+    name = "Activities"
+    weight = 4
+
+    [[menu.main]]
+        identifier = "Volunteering"
+        name = "Volountering"
+        pageRef = "/Volunteering"
+        parent = "Activities"
+        weight = 2
+
+     [[menu.main]]
+         identifier = "TK Ensemble"
+         name = "TK Ensemble"
+         pageRef = "/TKENSEMBLE"
+         parent = "Activities"
+         weight = 3
+
 
 [markup]
   [markup.goldmark]

@@ -45,4 +45,8 @@
     <loc>http://localhost:1313/opencall/</loc>
     
     </url>
+  <url>
+    <loc>http://localhost:1313/volunteering/</loc>
+    
+    </url>
 </urlset>

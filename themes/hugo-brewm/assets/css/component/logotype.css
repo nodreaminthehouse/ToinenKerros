@@ -17,7 +17,7 @@
     https://codepen.io/alvarotrigo/pen/rNbxNWg */
 
 #logo {
-    --h: calc(3.33rem - 10pt);
+    --h: calc(3.3rem - 5pt);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,14 +32,14 @@
 }
 
 #logo #logotype__text {
-    --anm: dash 30s infinite alternate;
+    --anm: dash 5s infinite alternate;
     text-transform: uppercase;
     letter-spacing: 0.2ex;
     font-family: var(--sf), sans-serif;
-    font-size: calc(27pt * var(--fontScale));
+    font-size: clamp(2rem, 1vw, 0.1rem);
     font-weight: 700;
     stroke: var(--off);
-    stroke-width: 1px;
+    stroke-width: 2px;
 }
 
 #logo:focus #logotype__text {
