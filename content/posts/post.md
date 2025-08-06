@@ -14,5 +14,7 @@ stage: 'budding'
 
 Come and listen Libero, he needs to eat in the cold finland 
 
+{{< figure src="cover" caption="alt" >}}
+
 
 

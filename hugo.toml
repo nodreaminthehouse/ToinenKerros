@@ -33,8 +33,8 @@ theme = "hugo-brewm"
 mainSections = ["posts"]
 
 [params.logo]
-  logoMark = "/images/logo.svg"
-  logoType = "/images/logo.svg"
+    logoType = true
+
 
    ## Post display settings
     [params.posts]
