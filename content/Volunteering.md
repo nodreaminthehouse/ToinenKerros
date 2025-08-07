@@ -11,6 +11,6 @@ Due to conflicting schedules we might occasionally meet on a different day.
 
 In these meetings we get to know each other, eat chips, discuss things to do and the meaning of life and might also do some practical work related to the space. We coordinate on a Signal group chat.
 
-Contact us @ info(at)aanenlumo.com to participate or to get more information!
+<span class="big-text2"> **Contact us @ info(at)aanenlumo.com to participate or to get more information!!** </span>
 
 **Photo: Roman Odjinud**

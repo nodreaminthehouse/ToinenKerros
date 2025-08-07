@@ -26,3 +26,17 @@
     --bg-dark-more: #000;
     --ac-dark-more: var(--ac-dark);
 }
+
+.big-text {
+font-size: 4.5em;
+}
+
+.big-text2 {
+font-size: 1.2em;
+}
+
+#slide-1__heading {
+  font-size: 3em; /* bigger size */
+  color: #ff540b; /* optional color */
+  font-weight: bold;
+}
