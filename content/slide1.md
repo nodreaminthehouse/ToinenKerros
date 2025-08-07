@@ -1,12 +1,13 @@
 ---
 type: 'slide'
-title: 'NEWS'
+title: News
+
 weight: 2
 params:
     headless: true
   
 ---
 
-# 29 July 2025 NEw webstie? 
+
 
 
