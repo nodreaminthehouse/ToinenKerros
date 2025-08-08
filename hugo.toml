@@ -1,9 +1,8 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Toinen Kerros'
-
 theme = "hugo-brewm" 
-
+copyright = "Copyright 2025 © Toinen Kerros - HUGO BREWN THEME"
 
 [[menu.main]]
   name = "Home"
@@ -22,7 +21,7 @@ theme = "hugo-brewm"
   weight = 3
 
   [[menu.main]]
-  name = "Open Call"
+  name = "OpenCall"
   url = "/OpenCall/"
   weight = 3
 
@@ -55,6 +54,11 @@ theme = "hugo-brewm"
 
 [params]
 mainSections = ["posts"]
+ZenMode = false
+ ## Disable Black background on main-footer
+    DisableFootBar = false
+    ## Merge site license, footer menu and coffee stat
+    unifiedFooter = true
 
 [params.logo]
     logoType = true
@@ -80,3 +84,7 @@ mainSections = ["posts"]
         secnum = false
 
 
+
+[params.home]
+## Disable taxonomy listing carousel
+disableListing = true
