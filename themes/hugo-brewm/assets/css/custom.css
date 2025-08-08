@@ -36,15 +36,65 @@ font-size: 1.2em;
 }
 
 #slide-1__heading {
-  font-size: 3em; /* bigger size */
-  color: #ff540b; /* optional color */
+  font-size: 2em; /* bigger size */
+  color: #ff710b; /* optional color */
   font-weight: bold;
 }
 
 #color1 {
-  color: #0bc2ff; /* optional color */
+  color: #ff710b; /* optional color */
 }
 
 #color2 {
   color: #0bc2ff; /* optional color */
+}
+
+.image-responsive-right {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+}
+
+/* Tablet and larger screens - Better flow approach */
+@media (min-width: 768px) {
+    .image-responsive-right {
+        float: right;
+        margin: 0 0 1rem 1rem;
+        max-width: 300px;
+        shape-outside: margin-box;
+        /* This creates better text wrapping */
+        clip-path: inset(0);
+    }
+    
+    /* Ensure the container properly contains floated elements */
+    .content-with-image::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@media (min-width: 1024px) {
+    .image-responsive-right {
+        max-width: 350px;
+        margin: 0 0 1rem 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .image-responsive-right {
+        max-width: 400px;
+        margin: 0 0 1rem 2.5rem;
+    }
+}
+
+/* Force text to wrap properly around the image */
+.content-with-image {
+    overflow: hidden; /* This contains floated elements better */
+}
+
+.content-with-image p {
+    text-align: justify; /* This might help with text flow */
+    hyphens: auto; /* Better word breaking */
 }
