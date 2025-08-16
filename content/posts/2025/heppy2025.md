@@ -1,5 +1,5 @@
 ---
-title: "Concerto di libero"
+title: "Concerto di Simone"
 date: 2025-02-22
 description: "Opening hour 19 - Price 15 Euro"
 draft: false
@@ -17,6 +17,3 @@ Come and listen Libero, he needs to eat in the cold Finland
 
 {{< figure src="cover" caption="alt" >}}
 
-
-
-cover: 'https://aanenlumo.com/wp-content/uploads/2025/03/unnamed.jpg?w=1024'

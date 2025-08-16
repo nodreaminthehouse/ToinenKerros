@@ -53,20 +53,20 @@ font-size: 1.2em;
 .content-with-right-image {
     display: flex;
     align-items: flex-start;
-    gap: 0.75rem; /* slightly smaller gap */
+    gap: 0.75rem; 
     margin-bottom: 1rem;
 }
 
 /* Text column */
 .content-with-right-image .text-column {
-    flex: 1; /* fill remaining space */
+    flex: 1; 
     margin: 0;
 }
 
-/* Tighten paragraph spacing */
+
 .content-with-right-image .text-column p {
     margin-top: 0;
-    margin-bottom: 0.4rem; /* tighter spacing */
+    margin-bottom: 0.4rem; 
     line-height: 1.45;
 }
 
@@ -77,7 +77,7 @@ font-size: 1.2em;
 
 /* Image column */
 .content-with-right-image .image-column {
-    flex: 0 0 300px; /* reduce width slightly to pull closer */
+    flex: 0 0 550px; /* reduce width slightly to pull closer */
     margin: 0;
 }
 

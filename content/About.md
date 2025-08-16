@@ -8,7 +8,7 @@ title: "About the space"
 <p>Toinen Kerros is located in Nokiantie 2-4, 2. kerros (2. floor), Helsinki, Finland.</p>
   </div>
   <div class="image-column">
-    <img src="/images/DSC_7288.jpg" alt="description" />
+    <img src="/images/DSC_7288.jpg" alt="place with people" />
   </div>
 </div>
 
